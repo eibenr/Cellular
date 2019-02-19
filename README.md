@@ -5,8 +5,7 @@ This work is Copyright 2019 Robert J. Eiben and licensed under the MIT License. 
 
 Synopsis
 
-Cellular allows you to build and run cellular automata. It comes with the implementation of Lifelike Cellular Automata, much like
-Conway's Game of Life. Other implementations can be added as needed.
+Cellular allows you to build and run cellular automata. It comes with the implementation of Lifelike Cellular Automata, much like Conway's Game of Life. Other implementations can be added as needed. One interesting aspect of the implementation is that it keeps track of the lifetime of each cell rather than just alive or dead, which can be used to create depth maps. Various rules run to a certain number of iterations produce maps useful for things like population density, or ore maps for mining games.
 
 Usage
 
