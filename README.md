@@ -13,10 +13,14 @@ Usage
 Include the Cellular namespace in any file that needs access. Use the CellularAutomataFactory to create your CA. Currently the supported CA implementation is:
 
 public static CellularAutomata CreateLifelikeAutomata (int columns, int rows, string ruleString, CellularAutomataEdgeHandling edgeHandling, int [,] initialState = null);
+
 where:
-    columns 
-        The number or horizontal columns in the grid.
-    rows
+
+columns 
+
+    The number or horizontal columns in the grid.
+    
+rows
         The number of vertical rows in the grid.
     ruleString
         A rule string of the form B(birth neighbor counts)/S(survival neighbor counts). Many existing rules can be found as public static strings on LifelikeCellularAutomataRule.
